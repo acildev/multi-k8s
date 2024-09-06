@@ -25,3 +25,8 @@ deploy:
   script: bash ./deploy.sh
   on:
     branch: master
+
+jobs:
+  include:
+    - stage: install
+      timeout: 600
