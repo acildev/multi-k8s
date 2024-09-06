@@ -30,3 +30,4 @@ jobs:
   include:
     - stage: install
       timeout: 600
+      
